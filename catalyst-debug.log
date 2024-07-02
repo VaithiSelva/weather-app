@@ -1,0 +1,233 @@
+[debug] [2024-06-27T12:03:33.778Z] : 
+[debug] [2024-06-27T12:03:33.783Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:03:33.784Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-27T12:03:33.786Z] : CLI Version:  1.17.5
+[debug] [2024-06-27T12:03:33.788Z] : Platform:     win32
+[debug] [2024-06-27T12:03:33.789Z] : Node Version: v18.17.0
+[debug] [2024-06-27T12:03:33.898Z] : Time:         Thu Jun 27 2024 17:33:33 GMT+0530 (India Standard Time)
+[debug] [2024-06-27T12:03:33.900Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:03:33.900Z] : 
+[debug] [2024-06-27T12:03:48.306Z] : > authorizing via signed-in user option
+[debug] [2024-06-27T12:03:48.308Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-27T12:03:48.464Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/8125000000006121 
+
+[warn] [2024-06-27T12:04:10.102Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:04:10.104Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:04:10.104Z] : >>>> RETRYING
+
+[warn] [2024-06-27T12:04:31.167Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:04:31.168Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:04:31.168Z] : >>>> RETRYING
+
+[warn] [2024-06-27T12:04:52.229Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:04:52.230Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:04:52.231Z] : >>>> RETRYING
+
+[warn] [2024-06-27T12:05:13.312Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2024-06-27T12:05:13.362Z] : × API Error after retrying : connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:05:13.364Z] : Error Stack: CatalystError: API Error after retrying : connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:162:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:160:16)
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:205:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2024-06-27T12:05:13.365Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:05:13.366Z] : Error Status: 500
+[info] [2024-06-27T12:05:13.370Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-06-27T12:05:13.374Z] : × API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:05:13.374Z] : Error Stack: CatalystError: API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:214:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-27T12:05:13.374Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:05:13.375Z] : Error Status: 500
+[info] [2024-06-27T12:05:13.375Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-06-27T12:05:13.377Z] : × API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:05:13.377Z] : Error Stack: CatalystError: API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:214:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-27T12:05:13.377Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:05:13.377Z] : Error Status: 500
+[info] [2024-06-27T12:05:13.378Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-06-27T12:05:13.381Z] : EXEC ENDED with event: Error (Unexpected), message: API Error after retrying : connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:05:13.381Z] : TOTAL DURATION OF COMMAND EXEC : 85225
+[debug] [2024-06-27T12:05:13.384Z] : Unable to initialise the log API
+[debug] [2024-06-27T12:07:38.893Z] : 
+[debug] [2024-06-27T12:07:38.898Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:07:38.899Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-27T12:07:38.902Z] : CLI Version:  1.17.5
+[debug] [2024-06-27T12:07:38.904Z] : Platform:     win32
+[debug] [2024-06-27T12:07:38.906Z] : Node Version: v18.17.0
+[debug] [2024-06-27T12:07:38.910Z] : Time:         Thu Jun 27 2024 17:37:38 GMT+0530 (India Standard Time)
+[debug] [2024-06-27T12:07:38.911Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:07:38.912Z] : 
+[debug] [2024-06-27T12:07:42.090Z] : > authorizing via signed-in user option
+[debug] [2024-06-27T12:07:42.091Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-27T12:07:42.121Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/8125000000006121 
+
+[warn] [2024-06-27T12:08:03.301Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:08:03.302Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:08:03.302Z] : >>>> RETRYING
+
+[warn] [2024-06-27T12:08:24.379Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:08:24.381Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:08:24.381Z] : >>>> RETRYING
+
+[warn] [2024-06-27T12:08:45.460Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:08:45.461Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:08:45.462Z] : >>>> RETRYING
+
+[warn] [2024-06-27T12:09:06.902Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2024-06-27T12:09:07.287Z] : × API Error after retrying : connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:09:07.287Z] : Error Stack: CatalystError: API Error after retrying : connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:162:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:160:16)
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:205:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2024-06-27T12:09:07.288Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:09:07.288Z] : Error Status: 500
+[info] [2024-06-27T12:09:07.678Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-06-27T12:09:08.197Z] : × API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:09:08.199Z] : Error Stack: CatalystError: API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:214:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-27T12:09:08.200Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:09:08.200Z] : Error Status: 500
+[info] [2024-06-27T12:09:08.734Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-06-27T12:09:09.163Z] : × API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:09:09.163Z] : Error Stack: CatalystError: API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:214:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-27T12:09:09.164Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:09:09.164Z] : Error Status: 500
+[info] [2024-06-27T12:09:09.198Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-06-27T12:09:09.200Z] : EXEC ENDED with event: Error (Unexpected), message: API Error after retrying : connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:09:09.200Z] : TOTAL DURATION OF COMMAND EXEC : 84899
+[debug] [2024-06-27T12:09:09.206Z] : Unable to initialise the log API
+[debug] [2024-06-27T12:12:49.299Z] : 
+[debug] [2024-06-27T12:12:49.302Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:12:49.303Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-27T12:12:49.304Z] : CLI Version:  1.17.5
+[debug] [2024-06-27T12:12:49.305Z] : Platform:     win32
+[debug] [2024-06-27T12:12:49.306Z] : Node Version: v18.17.0
+[debug] [2024-06-27T12:12:49.309Z] : Time:         Thu Jun 27 2024 17:42:49 GMT+0530 (India Standard Time)
+[debug] [2024-06-27T12:12:49.309Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:12:49.310Z] : 
+[debug] [2024-06-27T12:12:52.466Z] : > authorizing via signed-in user option
+[debug] [2024-06-27T12:12:52.472Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-27T12:12:52.683Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/8125000000006121 
+
+[error] [2024-06-27T12:12:56.117Z] : × API Error: connect ECONNABORTED 169.148.148.93:443
+[debug] [2024-06-27T12:12:56.118Z] : Error Stack: CatalystError: API Error: connect ECONNABORTED 169.148.148.93:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:214:32)
+    at Generator.next (<anonymous>)
+    at C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at Request._callback (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:194:67)
+    at self.callback (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:185:22)
+    at Request.emit (node:events:514:28)
+    at Request.onRequestError (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (node:events:514:28)
+[debug] [2024-06-27T12:12:56.122Z] : Original Error: Error: connect ECONNABORTED 169.148.148.93:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:12:56.124Z] : Error Status: 500
+[info] [2024-06-27T12:12:56.131Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-06-27T12:12:56.132Z] : EXEC ENDED with event: Error (Unexpected), message: API Error: connect ECONNABORTED 169.148.148.93:443
+[debug] [2024-06-27T12:12:56.132Z] : TOTAL DURATION OF COMMAND EXEC : 3789
+[debug] [2024-06-27T12:12:56.141Z] : Unable to initialise the log API
+[debug] [2024-06-27T12:13:41.062Z] : 
+[debug] [2024-06-27T12:13:41.065Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:13:41.066Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js deploy
+[debug] [2024-06-27T12:13:41.067Z] : CLI Version:  1.17.5
+[debug] [2024-06-27T12:13:41.069Z] : Platform:     win32
+[debug] [2024-06-27T12:13:41.069Z] : Node Version: v18.17.0
+[debug] [2024-06-27T12:13:41.072Z] : Time:         Thu Jun 27 2024 17:43:41 GMT+0530 (India Standard Time)
+[debug] [2024-06-27T12:13:41.073Z] : ----------------------------------------------------------------------
+[debug] [2024-06-27T12:13:41.074Z] : 
+[debug] [2024-06-27T12:13:44.336Z] : > authorizing via signed-in user option
+[debug] [2024-06-27T12:13:44.339Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.webapp.ALL","ZohoCatalyst.appsail.Update"]
+[debug] [2024-06-27T12:13:44.396Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/8125000000006121 
+
+[warn] [2024-06-27T12:14:05.609Z] : ‼ ETIMEDOUT has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-06-27T12:14:05.610Z] : API Error while firing request : connect ETIMEDOUT 64:ff9b::a994:945d:443
+
+[debug] [2024-06-27T12:14:05.611Z] : >>>> RETRYING
+
+[debug] [2024-06-27T12:14:06.276Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 27 Jun 2024 12:14:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=6cafc596-265c-400d-8460-118401999830;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6cafc596-265c-400d-8460-118401999830;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-06-27T12:14:06.292Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/8125000000006121/environment 
+
+[debug] [2024-06-27T12:14:06.557Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 27 Jun 2024 12:14:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=83d0723b-802b-4a2d-ab6d-43d2f5e28b29;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=83d0723b-802b-4a2d-ab6d-43d2f5e28b29;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-06-27T12:14:08.356Z] : i Plugin : "zcatalyst-cli-plugin-react" is used for client deploy
+[info] [2024-06-27T12:14:08.359Z] : i Building Application...
+[info] [2024-06-27T12:14:32.554Z] : [react-plugin]: Creating an optimized production build...
+[info] [2024-06-27T12:15:05.648Z] : [react-plugin]: Compiled successfully.
+
+[info] [2024-06-27T12:15:05.673Z] : [react-plugin]: File sizes after gzip:
+
+[info] [2024-06-27T12:15:05.938Z] : [react-plugin]:   71.49 kB       build\static\js\main.a9d18909.js
+[info] [2024-06-27T12:15:05.943Z] : [react-plugin]:   1.67 kB        build\static\js\453.53e5b1b8.chunk.js
+[info] [2024-06-27T12:15:05.951Z] : [react-plugin]:   856 B (+29 B)  build\static\css\main.1b970557.css
+[info] [2024-06-27T12:15:05.954Z] : [react-plugin]:  
+[debug] [2024-06-27T12:15:07.977Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/project/8125000000006121/webapp 
+
+[debug] [2024-06-27T12:15:12.419Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 27 Jun 2024 12:15:12 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=40e82ce5-a6cb-41ca-a6a0-6e380a058b15;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=40e82ce5-a6cb-41ca-a6a0-6e380a058b15;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-06-27T12:15:12.440Z] : 
+[info] [2024-06-27T12:15:12.442Z] : √ client: deploy successful
+[info] [2024-06-27T12:15:12.446Z] : i client: URL => https://weather-60030441329.development.catalystserverless.in/app/index.html
+[info] [2024-06-27T12:15:12.451Z] : 
+[info] [2024-06-27T12:15:12.455Z] : √ Catalyst deploy complete!
+[error] [2024-06-27T12:15:12.535Z] : × API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+[debug] [2024-06-27T12:15:12.535Z] : Error Stack: CatalystError: API Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at API.<anonymous> (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:214:32)
+    at Generator.next (<anonymous>)
+    at fulfilled (C:\Users\ELCOT\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:28:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-06-27T12:15:12.536Z] : Original Error: Error: connect ETIMEDOUT 64:ff9b::a994:945d:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1495:16)
+[debug] [2024-06-27T12:15:12.536Z] : Error Status: 500
+[info] [2024-06-27T12:15:12.579Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-06-27T12:15:12.592Z] : EXEC ENDED with event: deploy, message: success
+[debug] [2024-06-27T12:15:12.593Z] : TOTAL DURATION OF COMMAND EXEC : 88249
+[debug] [2024-06-27T12:15:12.745Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.in/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2024-06-27T12:15:14.261Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 27 Jun 2024 12:15:14 GMT","content-length":"0","connection":"close","set-cookie":["zalb_3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=4bbe96fd-cf76-46ed-82cd-7d45c47334c9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4bbe96fd-cf76-46ed-82cd-7d45c47334c9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
